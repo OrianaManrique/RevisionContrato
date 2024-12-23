@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+///border-radius: 5px;
+///max-width: 800px;
+///<b></b> negrita
 /// En negocio van las validaciones
 /// trabajar siempre que se pueda con clases
 

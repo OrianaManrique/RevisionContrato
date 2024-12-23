@@ -1,0 +1,9 @@
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\bin\Debug\DAO.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\bin\Debug\DAO.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\bin\Debug\ENTIDADES.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\bin\Debug\ENTIDADES.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\obj\Debug\DAO.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\DAO\obj\Debug\DAO.pdb

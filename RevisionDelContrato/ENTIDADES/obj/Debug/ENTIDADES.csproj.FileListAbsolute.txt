@@ -1,0 +1,6 @@
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\obj\Debug\ENTIDADES.csproj.AssemblyReference.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\ENTIDADES\obj\Debug\ENTIDADES.pdb

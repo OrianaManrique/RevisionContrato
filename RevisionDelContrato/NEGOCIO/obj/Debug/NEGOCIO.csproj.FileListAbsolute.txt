@@ -1,0 +1,11 @@
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\DAO.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\DAO.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\obj\Debug\NEGOCIO.csproj.AssemblyReference.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Oriana\source\repos\RevisionContrato\RevisionDelContrato\NEGOCIO\obj\Debug\NEGOCIO.pdb
