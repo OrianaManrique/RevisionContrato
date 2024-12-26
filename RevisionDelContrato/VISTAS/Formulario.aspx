@@ -13,6 +13,7 @@
             margin: 0;
             padding: 0;
         }
+/*encabezado contenido*/
         .header {
     display: flex;
     align-items: center;
@@ -20,29 +21,68 @@
     background-color: #f4f4f9;
     padding: 10px;
     margin-bottom: 20px;
-}
+    }
 
 .logo {
     height: 60px;
     width: auto;
 }
-
+/*bordes conteiner*/
+.form-container1 {
+    width: 800px;
+    /*margin: 20px auto;*/
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    border-bottom: none;
+    margin-top: 20px;   /* Márg parte superior */
+    margin-right: auto; /* Márg lado derecho */
+    margin-bottom: 0px; /* Márg parte inferior */
+    margin-left: auto;  /* Márg lado izquierdo */
+}
+.form-container2 {
+    width: 800px;
+    margin: 0px auto; /*el primer parametro asigna parte inferior y superior, el 2do izq y der*/
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+.form-container3 {
+    width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+.vertical-line {
+    width: 2px;
+    margin: 0px auto; /*el primer parametro asigna parte inferior y superior, el 2do izq y der*/
+    background: #fff;
+    padding: 10px;
+    
+    border-top: none;    /* Borde superior */
+    border-right: none;  /* Borde derecho */
+    border-bottom: none; /* Borde inferior */
+    border-left: 2px solid black;   /* Borde izquierdo */
+        }
+        .vertical-line1 {
+    position: absolute; /* Posicionamos la línea de forma absoluta */
+    top: 0; /* Empieza desde el borde superior */
+    bottom: 0; /* Termina en el borde inferior */
+    left: 50%; /* Coloca la línea en el centro horizontal */
+    transform: translateX(-50%); /* Ajusta para centrar la línea perfectamente */
+    width: 2px; /* Grosor de la línea */
+    background-color: black; /* Color de la línea */
+        }
 .planilla-title {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     color: #333;
 }
-
-.form-container {
-    width: 800px;
-    margin: 20px auto;
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
         h1 {
             text-align: center;
             font-size: 24px;
@@ -110,23 +150,43 @@
             border: 1px solid #ccc;
             border-radius: 3px;
         }
-        .auto-style4 {
-            text-align: center;
-            width: 135px;
-            margin-left: 0px;
+        .auto-style5 {
+            width: 0px;
+            margin: 0px auto;
+/*el primer parametro asigna parte inferior y superior, el 2do izq y der*/background: #fff;
+            padding: 10px;
+/* Borde superior *//* Borde derecho *//* Borde inferior */border-left: 2px solid black;
+            border-right-style: none;
+            border-right-color: inherit;
+            border-right-width: medium;
+            border-top-style: none;
+            border-top-color: inherit;
+            border-top-width: medium;
+            border-bottom-style: none;
+            border-bottom-color: inherit;
+            border-bottom-width: medium;
         }
     </style>
 </head>
 <body>
+
     <form id="form1" runat="server">
     <!-- Contenedor principal del formulario -->
-    <div class="form-container">
+     <div class="form-container1"> 
             <!-- Encabezado dentro del formulario -->
             <div class="header">
                 <img src="imagenes\UTN-FRGP LABTEC.png" alt="Logo" class="auto-style1" /><h1 class="auto-style2">Revisión del Contrato</h1><asp:Label ID="lblRev" runat="server" Text="<b>LT-P05-R01<br />Rev. 03<br /></b>Vigencia: 14/05/2019<br />Página 1 de 1" />
             </div>
+            </div>
+    <div class="form-container2">
+        
+        <div class="vertical-line1">
+        
+        </div>
     </div>
-    <div class="form-container">
+       
+      
+    <div class="form-container3">
             <!-- Sección A -->
             <fieldset>
                 <legend>A) Datos del Cliente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Revisión de Contrato N°: <asp:TextBox ID="txtNRevision0" runat="server" CssClass="auto-style3" Width="94px" /></legend>
