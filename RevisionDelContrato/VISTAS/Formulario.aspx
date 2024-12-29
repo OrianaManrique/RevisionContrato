@@ -36,14 +36,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid black;
     border-bottom: none;
-    margin-top: 20px;   /* Márg parte superior */
-    margin-right: auto; /* Márg lado derecho */
-    margin-bottom: 0px; /* Márg parte inferior */
-    margin-left: auto;  /* Márg lado izquierdo */
+    margin-top: 20px;   /* Marg parte superior */
+    margin-right: auto; /* Marg lado derecho */
+    margin-bottom: 0px; /* Marg parte inferior */
+    margin-left: auto;  /* Marg lado izquierdo */
 }
 .form-container2 {
     width: 800px;
-    margin: 0px auto; /*el primer parametro asigna parte inferior y superior, el 2do izq y der*/
+    margin: 0px auto; /*parte inferior y superior, el 2do izq y der*/
     background: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@
 }
 .vertical-line {
     width: 2px;
-    margin: 0px auto; /*el primer parametro asigna parte inferior y superior, el 2do izq y der*/
+    margin: 0px auto; 
     background: #fff;
     padding: 10px;
     
@@ -153,9 +153,9 @@
         .auto-style5 {
             width: 0px;
             margin: 0px auto;
-/*el primer parametro asigna parte inferior y superior, el 2do izq y der*/background: #fff;
+            background: #fff;
             padding: 10px;
-/* Borde superior *//* Borde derecho *//* Borde inferior */border-left: 2px solid black;
+            border-left: 2px solid black;
             border-right-style: none;
             border-right-color: inherit;
             border-right-width: medium;
