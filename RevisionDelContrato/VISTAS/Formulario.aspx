@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Revisión del Contrato</title>
-    <style>
+    <style style="font-weight: normal">
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -26,56 +26,111 @@
 .logo {
     height: 60px;
     width: auto;
+    text-align: center;
 }
-/*bordes conteiner*/
+
+.contenedor-principal {
+  width: 800px; /* Ancho total del contenedor principal */
+  height: 150px;
+  display: flex; /* Para alinear los contenedores hijos horizontalmente */
+  margin: 20px auto;
+  background: #fff;
+  padding: 0;
+}
+/*conteiner logo*/
 .form-container1 {
-    width: 800px;
+    width: 100%;
+    height: 100%;
     /*margin: 20px auto;*/
     background: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid black;
-    border-bottom: none;
+    border: 3px solid black;
+    /*border-bottom: none;*/
+    /*border-right: none;*/
     margin-top: 20px;   /* Marg parte superior */
-    margin-right: auto; /* Marg lado derecho */
+    margin-right: 0px; /* Marg lado derecho */
     margin-bottom: 0px; /* Marg parte inferior */
     margin-left: auto;  /* Marg lado izquierdo */
+    text-align: center;
+
 }
+/*container título*/
 .form-container2 {
-    width: 800px;
-    margin: 0px auto; /*parte inferior y superior, el 2do izq y der*/
+    width: 100%;
+    height: 100%;
+    /*margin: 20px auto;*/ /*parte inferior y superior, el 2do izq y der*/
     background: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid black;
+    border: 3px solid black;
+    /*border-bottom: none;*/
+    border-right: none;
+    border-left: none;
+    margin-top: 20px;   /* Marg parte superior */
+    margin-right: 0px; /* Marg lado derecho */
+    margin-bottom: 0px; /* Marg parte inferior */
+    margin-left: 0px;  /* Marg lado izquierdo */
+    text-align: center;
+    line-height: 100px;
 }
+/*container descrip*/
 .form-container3 {
+    width: 100%;/*auto;*/
+    height: 100%;
+    /*margin: 20px auto;*/
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    margin-top: 20px;   /* Marg parte superior */
+    margin-right: auto; /* Marg lado derecho */
+    margin-bottom: 0px; /* Marg parte inferior */
+    margin-left: 0px;  /* Marg lado izquierdo */
+}
+.form-container4 {
+    width: 400px;
+    height: 40px;
+    /*margin: 20px auto;*/
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    margin-top: 0px;   /* Marg parte superior */
+    margin-right: 0px; /* Marg lado derecho */
+    margin-bottom: 20px; /* Marg parte inferior */
+    margin-left: auto;  /* Marg lado izquierdo */
+}
+.form-container5 {
+    width: 400px;
+    height: 40px;
+    /*margin: 20px auto;*/
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    border-left: none;
+    margin-top: 0px;   /* Marg parte superior */
+    margin-right: auto; /* Marg lado derecho */
+    margin-bottom: 20px; /* Marg parte inferior */
+    margin-left: 0px;  /* Marg lado izquierdo */
+}
+
+.form-container6 {
     width: 800px;
     margin: 20px auto;
     background: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid black;
+    border: 3px solid black;
 }
-.vertical-line {
-    width: 2px;
-    margin: 0px auto; 
-    background: #fff;
-    padding: 10px;
-    
-    border-top: none;    /* Borde superior */
-    border-right: none;  /* Borde derecho */
-    border-bottom: none; /* Borde inferior */
-    border-left: 2px solid black;   /* Borde izquierdo */
-        }
-        .vertical-line1 {
-    position: absolute; /* Posicionamos la línea de forma absoluta */
-    top: 0; /* Empieza desde el borde superior */
-    bottom: 0; /* Termina en el borde inferior */
-    left: 50%; /* Coloca la línea en el centro horizontal */
-    transform: translateX(-50%); /* Ajusta para centrar la línea perfectamente */
-    width: 2px; /* Grosor de la línea */
-    background-color: black; /* Color de la línea */
+/***************************************************************************************************************/
+ .form-columna {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 .planilla-title {
     font-size: 20px;
@@ -86,6 +141,11 @@
         h1 {
             text-align: center;
             font-size: 24px;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            font-size: 20px;
             color: #333;
         }
 
@@ -133,8 +193,10 @@
             background: #0056b3;
         }
         .auto-style1 {
-            height: 121px;
-            width: 126px;
+            width: 90%;
+            height: 150px;
+           /* height: 180px;*/
+           /* width: 170px;*/
         }
         .center-text {
     text-align: center;
@@ -150,43 +212,34 @@
             border: 1px solid #ccc;
             border-radius: 3px;
         }
-        .auto-style5 {
-            width: 0px;
-            margin: 0px auto;
-            background: #fff;
-            padding: 10px;
-            border-left: 2px solid black;
-            border-right-style: none;
-            border-right-color: inherit;
-            border-right-width: medium;
-            border-top-style: none;
-            border-top-color: inherit;
-            border-top-width: medium;
-            border-bottom-style: none;
-            border-bottom-color: inherit;
-            border-bottom-width: medium;
-        }
-    </style>
+        </style>
 </head>
 <body>
 
     <form id="form1" runat="server">
-    <!-- Contenedor principal del formulario -->
-     <div class="form-container1"> 
-            <!-- Encabezado dentro del formulario -->
-            <div class="header">
-                <img src="imagenes\UTN-FRGP LABTEC.png" alt="Logo" class="auto-style1" /><h1 class="auto-style2">Revisión del Contrato</h1><asp:Label ID="lblRev" runat="server" Text="<b>LT-P05-R01<br />Rev. 03<br /></b>Vigencia: 14/05/2019<br />Página 1 de 1" />
-            </div>
-            </div>
-    <div class="form-container2">
-        
-        <div class="vertical-line1">
-        
-        </div>
+    <!-- *********************************** -->
+        <div class="contenedor-principal">
+  <div class="form-container1">
+      <div class="logo">
+                <img src="imagenes\UTN-FRGP LABTEC.png" alt="Logo" class="auto-style1" />
+                </div>
+  </div>
+  <div class="form-container2">
+      <h1 class="auto-style2"> <asp:Label ID="lblTitulo" runat="server" Text="Revisión del Contrato" /> </h1>
+  </div>
+  <div class="form-container3">
+     <h2> <asp:Label ID="lblRev" runat="server" Text="<b>LT-P05-R01<br />Rev. 03<br /></b>Vigencia: 14/05/2019<br />Página 1 de 1" Font-Bold="False"/> </h2>
+  </div>
+</div>
+<div class="contenedor-principal">
+<div class="form-container4"> 
+    <asp:Label ID="lblReviso" runat="server" Text="Revisó:" Font-Bold="True" />
+</div>
+    <div class="form-container5">
+        <asp:Label ID="lblAprobo" runat="server" Text="Aprobó:" Font-Bold="True" />
+      </div>
     </div>
-       
-      
-    <div class="form-container3">
+    <div class="form-container6">
             <!-- Sección A -->
             <fieldset>
                 <legend>A) Datos del Cliente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Revisión de Contrato N°: <asp:TextBox ID="txtNRevision0" runat="server" CssClass="auto-style3" Width="94px" /></legend>
