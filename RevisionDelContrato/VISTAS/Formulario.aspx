@@ -271,10 +271,10 @@
                 <asp:Label ID="lblFactibilidad" runat="server" Text="B.2) Análisis de Factibilidad de prestación del servicio solicitado :" />
                 <asp:TextBox ID="txtFactibilidad" runat="server" CssClass="textbox" TextMode="MultiLine" />
                 <asp:Label ID="lblSubcontratar" runat="server" Text="¿Necesidad de subcontratar?" />
-                <asp:DropDownList ID="ddlSubcontratar" runat="server" CssClass="dropdown">
-                    <asp:ListItem Text="Sí" Value="Si" />
-                    <asp:ListItem Text="No" Value="No" />
-                </asp:DropDownList>
+                &nbsp;Si&nbsp;&nbsp;
+                <asp:CheckBox ID="ckbSi" runat="server" Font-Bold="True" />
+                No
+                <asp:CheckBox ID="ckbNo" runat="server" Font-Bold="True" />
             </fieldset>
 
             <!-- Sección C -->

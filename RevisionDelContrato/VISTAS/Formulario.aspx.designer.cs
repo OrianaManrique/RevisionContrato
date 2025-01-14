@@ -276,13 +276,22 @@ namespace VISTAS
         protected global::System.Web.UI.WebControls.Label lblSubcontratar;
 
         /// <summary>
-        /// Control ddlSubcontratar.
+        /// Control ckbSi.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSubcontratar;
+        protected global::System.Web.UI.WebControls.CheckBox ckbSi;
+
+        /// <summary>
+        /// Control ckbNo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox ckbNo;
 
         /// <summary>
         /// Control lblAceptacion.
